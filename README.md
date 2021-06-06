@@ -68,10 +68,7 @@ Change <code>ApiUrl: '//example.net/'</code> in <code>www/config/environment.js<
 #### Blank page issue fix:
 
 
-    nvm install v4.9.1
-    cd www/ ; npm install
-    bower install
-    ./build.sh
+    uncompress intl-format-cache.zip into www/node_modules directory
 
 Configure nginx to serve API on <code>/api</code> subdirectory.
 Configure nginx to serve <code>www/dist</code> as static website.
